@@ -6,13 +6,12 @@ import lenguajes from "../data/Data";
 
 export const Home = () => {
 
-    console.log(lenguajes);
     
 
     return (
         <>
         <Header/>
-        <MainHome/>
+        <MainHome lenguajes={lenguajes}/>
         <Footer/>
         </>
     )
