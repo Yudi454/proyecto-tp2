@@ -10,7 +10,7 @@ const MainHome = ({lenguajes}) => {
     <div>
         <Aside/>
         <Article lenguajes={lenguajes}/>
-        <LangTable/>
+        <LangTable lenguajes={lenguajes}/>
     </div>
   )
 }
