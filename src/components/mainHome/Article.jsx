@@ -1,4 +1,5 @@
 import { Button, Card, Col, Row } from "react-bootstrap";
+import "../../css/Article.css"
 
 const Article = ({ lenguajes }) => {
   console.log(lenguajes);
@@ -7,10 +8,10 @@ const Article = ({ lenguajes }) => {
     <div>
       <Row>
         {lenguajes.map((lenguaje) => (
-          <Col md={4} key={lenguaje.id}>
-            <Card style={{ width: "18rem" }}>
+          <Col md={4} key={lenguaje.id} className="mb-3">
+            <Card className="carta" style={{ width: "18rem" }}>
               <Card.Img variant="top" src={lenguaje.imagen} />
-              <Card.Body>
+              <Card.Body className="cuerpoCarta">
                 <Card.Title>{lenguaje.nombre}</Card.Title>
                 <Card.Text>{lenguaje.descripcion}</Card.Text>
               </Card.Body>
