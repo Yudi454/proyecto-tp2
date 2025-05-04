@@ -1,4 +1,4 @@
-import "./acerca.css";
+import "../css/acerca.css";
 import { Card, Col, Row, Container } from "react-bootstrap";
 
 const AcercaDeNosotros = () => {
@@ -10,7 +10,7 @@ const AcercaDeNosotros = () => {
         <br />
         <Row className="mb-4">
           <Col md={4}>
-            <Card className="card-acerca" style={{ width: "24rem" }}>
+            <Card className="card-acerca" style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"
                 src="imagenPerfil.jpg"
@@ -41,7 +41,7 @@ const AcercaDeNosotros = () => {
             </Card>
           </Col>
           <Col md={4}>
-            <Card className="card-acerca" style={{ width: "24rem" }}>
+            <Card className="card-acerca" style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"
                 src="Lucas.jpg"
@@ -72,7 +72,7 @@ const AcercaDeNosotros = () => {
             </Card>
           </Col>
           <Col md={4}>
-            <Card className="card-acerca" style={{ width: "24rem" }}>
+            <Card className="card-acerca" style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"
                 src="Esteban.jpg"
@@ -108,7 +108,7 @@ const AcercaDeNosotros = () => {
         <br />
         <Row className="justify-content-center">
           <Col md={4}>
-            <Card className="card-acerca" style={{ width: "24rem" }}>
+            <Card className="card-acerca" style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"
                 src="Esteban.jpg"
@@ -139,7 +139,7 @@ const AcercaDeNosotros = () => {
             </Card>
           </Col>
           <Col md={4}>
-            <Card className="card-acerca" style={{ width: "24rem" }}>
+            <Card className="card-acerca" style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"
                 src="Nicolas.jpg"
