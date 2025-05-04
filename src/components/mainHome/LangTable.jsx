@@ -1,9 +1,10 @@
 import Table from 'react-bootstrap/Table';
+import "../../css/LangTable.css"
 
 const LangTable = ({ lenguajes }) => {
   return (
-    <div>
-      <Table striped bordered hover>
+    <div className='langTable'>
+      <Table striped bordered >
         <thead>
           <tr>
             <th>ID</th>
@@ -12,9 +13,9 @@ const LangTable = ({ lenguajes }) => {
             <th>Descripción</th>
           </tr>
         </thead>
-        <tbody style={{ '--bs-table-bg': '#FF9E77' }}>
+        <tbody>
           {lenguajes.map((lenguaje) => (
-            <tr key={lenguaje.id}>
+            <tr className='filaTabla' key={lenguaje.id}>
               <td>{lenguaje.id}</td>
               <td>{lenguaje.nombre}</td>
               <td>{lenguaje.tipo}</td>
