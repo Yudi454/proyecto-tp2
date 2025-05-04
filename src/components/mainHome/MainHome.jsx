@@ -19,7 +19,7 @@ const MainHome = ({lenguajes}) => {
         <Article lenguajes={lenguajes}/>
         </Col>
       </Row>
-        <LangTable/>
+      <LangTable lenguajes={lenguajes}/>
     </div>
   )
 }

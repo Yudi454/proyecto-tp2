@@ -1,0 +1,11 @@
+.langTable{
+    padding: 15vh;
+}
+
+.filaTabla td{
+   background-color: #FF9E77 !important;
+}
+
+.filaTabla:hover td{
+    background-color: #FF7F50 !important;
+}
