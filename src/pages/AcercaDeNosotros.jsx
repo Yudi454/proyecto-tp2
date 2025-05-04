@@ -1,10 +1,10 @@
-/*import "../css/acerca.css";*/
+import "../css/acerca.css";
 import { Card, Col, Row, Container } from "react-bootstrap";
 
 const AcercaDeNosotros = () => {
   return (
     <div className="acerca-de-nosotros">
-      <h2>NUESTRO EQUIPO</h2>
+      <h2 className="subtitulo2">NUESTRO EQUIPO</h2>
       <br />
       <Container>
         <br />
@@ -17,7 +17,7 @@ const AcercaDeNosotros = () => {
                 style={{ height: "330px", objectFit: "cover" }}
               />
               <Card.Body>
-                <Card.Title>CAMILA JUAREZ</Card.Title>
+                <Card.Title className="tituloCartaAcerca">CAMILA JUAREZ</Card.Title>
                 <Card.Text>
                   Estudiante de programacion en la
                   UTN-FRT, lenguajes y tecnologías que manejo:

@@ -4,7 +4,7 @@
     padding: 4%;
 }
 
-h2{
+.subtitulo2{
     font-size: 4.5rem;
     font-weight: bold;
     color: rgb(9, 72, 135);
@@ -23,7 +23,7 @@ h2{
 
 }
 
-.card .card-title{
+.tituloCartaAcerca{
     font-size: 1.5rem;
     font-weight: bold;
     padding: 6%;
