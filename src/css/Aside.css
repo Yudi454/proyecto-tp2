@@ -1,10 +1,18 @@
-p1{
-    text-decoration: none;
-    color: red;
+
+.aside{
+    border: 4px dashed red;
+    text-shadow: 3px 2px 4px black;
+    padding: 3vh;
 }
-contorno {
-    border: 2px dotted red;
-    padding: 16px;
-    border-radius: 8px;
-  }
-  
+
+.subtituloAside{
+    color: white;
+}
+
+.textoAside{
+    color: #fca700;
+}
+
+.listaAside{
+    color: white;
+}
