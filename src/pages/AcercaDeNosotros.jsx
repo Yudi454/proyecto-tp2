@@ -75,7 +75,7 @@ const AcercaDeNosotros = () => {
             <Card className="card-acerca" style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"
-                src="Esteban.jpg"
+                src="Fede.jpg"
                 style={{ height: "330px", objectFit: "cover" }}
               />
               <Card.Body>
