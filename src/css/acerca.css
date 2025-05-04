@@ -1,0 +1,30 @@
+.acerca-de-nosotros{
+    text-align: center;
+    background-color: rgb(112, 164, 249);
+    padding: 4%;
+}
+
+h2{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: rgb(9, 72, 135);
+    padding: 22px;
+    font-style: oblique;
+    text-shadow: 1px 1px 3px rgb(252, 252, 255);
+}
+
+.card-acerca{
+    background-color: rgb(141, 179, 255);
+    color: rgb(1, 51, 95);
+    box-shadow: 2px 2px 2px rgb(9, 72, 135);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.card .card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 6%;
+}
