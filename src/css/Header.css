@@ -1,0 +1,29 @@
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo{
+    color: blue;
+    text-shadow: 2px 4px 4px white;
+}
+
+.header{
+    background-image: url("https://loopgk.com/wp-content/uploads/2021/02/lenguaje-min.jpg");
+    padding-top: 8vh;
+    background-size: cover;
+}
+
+.nav{
+    background-color: #b0d7e6;
+    padding-top: 1vh;
+    padding-bottom: 1.5vh;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px white;
+}
+
