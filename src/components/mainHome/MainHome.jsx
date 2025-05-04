@@ -11,7 +11,7 @@ const MainHome = ({lenguajes}) => {
   return (
     <div className="text-center mainHome">
       <h2 className="m-4 mb-5 subtitulo">Lenguajes de Programación 2025</h2>
-      <Row>
+      <Row className="gx-0">
         <Col md={3}>
         <Aside/>
         </Col>
