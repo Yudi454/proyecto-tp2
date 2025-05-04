@@ -12,9 +12,9 @@ const LangTable = ({ lenguajes }) => {
             <th>Descripción</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody style={{ '--bs-table-bg': '#FF9E77' }}>
           {lenguajes.map((lenguaje) => (
-            <tr>
+            <tr key={lenguaje.id}>
               <td>{lenguaje.id}</td>
               <td>{lenguaje.nombre}</td>
               <td>{lenguaje.tipo}</td>
