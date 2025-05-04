@@ -1,4 +1,4 @@
-import "../css/acerca.css";
+/*import "../css/acerca.css";*/
 import { Card, Col, Row, Container } from "react-bootstrap";
 
 const AcercaDeNosotros = () => {
